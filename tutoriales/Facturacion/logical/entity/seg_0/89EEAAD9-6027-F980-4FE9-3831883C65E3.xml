@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89EEAAD9-6027-F980-4FE9-3831883C65E3" name="LineasFactura">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:02:11 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lineaNumero" id="F70B7FCC-E044-466D-81C8-7C2945925D07">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:02:21 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="D6D95E61-1C1C-DAD8-7989-EB01450C10DE">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:02:43 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="A10D262B-02B5-BA57-2C11-70D04C59CCC5">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:02:58 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="7C3025B2-C54F-8CE4-71D0-71B2C2F356B4">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:14:37 UTC</createdTime>
+<generatorID>43937D59-C6D4-2596-A87E-5CD0B8F9FBEB</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<referedAttribute>61E48CAC-CF60-1FE4-2F20-5FB06D424ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item" id="D0186643-8E26-E3A1-259B-76064C193208">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:24:07 UTC</createdTime>
+<generatorID>407EEA71-C6C1-7C72-1EF9-7EE3934B1D4B</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6CF8C188-8D1F-50DF-288A-5933D0A5A8EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido" id="C24CE4D9-B7AD-D310-5D67-F8123B22786E">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:46:49 UTC</createdTime>
+<generatorID>43937D59-C6D4-2596-A87E-5CD0B8F9FBEB</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<referedAttribute>7267A3E4-4DD3-9C7D-F11C-7A6FDFECABA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B15EA12-56A7-9045-EC52-3EF2BD2B753C" name="LineasFactura PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:03:10 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F70B7FCC-E044-466D-81C8-7C2945925D07</attributeRef>
+<attributeRef>7C3025B2-C54F-8CE4-71D0-71B2C2F356B4</attributeRef>
+<attributeRef>C24CE4D9-B7AD-D310-5D67-F8123B22786E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4773DF75-12FA-0B7C-12B4-E5F58879EABF" name="Contacto">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:54:48 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9C26EC4F-FBBC-E4AC-C1A2-B214FF4739D8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="E196BC98-2BA4-63F7-73EA-05CE9C87E4C7">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:54:57 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="3EEA06EA-A12D-4D5C-BF13-8C63454AD592">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:55:13 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="228F207B-0E62-6EA1-BC17-1E3EB2930BB1" name="LineasFactura">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>89EEAAD9-6027-F980-4FE9-3831883C65E3</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lineaNumero" id="AC293DC5-5558-21EB-8A03-E03E9CCFAC2A">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>F70B7FCC-E044-466D-81C8-7C2945925D07</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="A9CE7F70-2D80-8993-E1D1-7B769379A130">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>D6D95E61-1C1C-DAD8-7989-EB01450C10DE</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Factura_numero" id="733AB6B6-067D-F3F5-DCAD-53D511325638">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>7C3025B2-C54F-8CE4-71D0-71B2C2F356B4</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA9E9A82-EAC6-04A0-495F-3289432AB25C" referredColumn="4DCE82A5-4715-B480-3F1F-3B7894E411FF"/>
+</associations>
+</Column>
+<Column name="Factura_numeroPedido" id="9E4BC589-E2F5-54E8-4D64-21E8DA437DED">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>C24CE4D9-B7AD-D310-5D67-F8123B22786E</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA9E9A82-EAC6-04A0-495F-3289432AB25C" referredColumn="B347395E-FB7C-033F-ADD6-AFE71ECF6173"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_item" id="35B22AD0-7118-1FDC-9262-C5218311EE04">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>D0186643-8E26-E3A1-259B-76064C193208</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69BEDC4A-D434-75D3-B063-41DFA2066467" referredColumn="078673CA-AAA6-3124-FA0A-44F190A2D15B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="161DBD8C-5767-D3D6-E9B9-8961A802D1C2" name="LineasFactura_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>0B15EA12-56A7-9045-EC52-3EF2BD2B753C</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC293DC5-5558-21EB-8A03-E03E9CCFAC2A"/>
+<colUsage columnID="733AB6B6-067D-F3F5-DCAD-53D511325638"/>
+<colUsage columnID="9E4BC589-E2F5-54E8-4D64-21E8DA437DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F66E50CE-E255-EF93-8299-1396CBD7F8E7" name="LineasFactura_Factura_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>43937D59-C6D4-2596-A87E-5CD0B8F9FBEB</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="733AB6B6-067D-F3F5-DCAD-53D511325638"/>
+<colUsage columnID="9E4BC589-E2F5-54E8-4D64-21E8DA437DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="098BF93E-A0F6-9405-5B33-DBAA36C10477" name="LineasFactura_PRODUCTO_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>407EEA71-C6C1-7C72-1EF9-7EE3934B1D4B</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B22AD0-7118-1FDC-9262-C5218311EE04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

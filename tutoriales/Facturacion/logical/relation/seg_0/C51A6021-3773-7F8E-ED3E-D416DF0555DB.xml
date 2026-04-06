@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene" directorySegmentName="seg_0" id="C51A6021-3773-7F8E-ED3E-D416DF0555DB">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:46:23 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<sourcePk>98541A6E-9F76-E227-3B57-7590E8176CEA</sourcePk>
+<dominantRole>FD193373-1AB5-0D3E-10E6-EF50FE97E9B1</dominantRole>
+<identifying>true</identifying>
+<nameOnSource>soporta</nameOnSource>
+<nameOnTarget>basada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD193373-1AB5-0D3E-10E6-EF50FE97E9B1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9BE31A22-E99C-D7DF-BDC9-95CD68456F87</targetEntity>
+<transferable>true</transferable>
+</Relation>

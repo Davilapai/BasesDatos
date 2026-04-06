@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD193373-1AB5-0D3E-10E6-EF50FE97E9B1" name="OrdenPedido">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:42:30 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="DEFC31C1-DE8A-E591-CEEE-A702DB61E0C8">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:42:38 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaPedido" id="EEB427F4-55CF-4991-6918-85D7178F413A">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:42:50 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98541A6E-9F76-E227-3B57-7590E8176CEA" name="OrdenPedido PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:43:07 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEFC31C1-DE8A-E591-CEEE-A702DB61E0C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

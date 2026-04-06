@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compuesta" directorySegmentName="seg_0" id="43937D59-C6D4-2596-A87E-5CD0B8F9FBEB">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:14:36 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<sourcePk>213C0D13-6F1F-207F-A41D-39AB73511FE5</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Compuesta</nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BE31A22-E99C-D7DF-BDC9-95CD68456F87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89EEAAD9-6027-F980-4FE9-3831883C65E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

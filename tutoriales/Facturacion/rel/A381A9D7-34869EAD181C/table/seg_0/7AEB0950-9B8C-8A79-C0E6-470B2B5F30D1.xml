@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AEB0950-9B8C-8A79-C0E6-470B2B5F30D1" name="Cliente">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>5F7BCA91-C7DF-917B-982F-CB2FB33AF33B</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificacion" id="F682BE6D-98AD-E28D-BDAB-D0992F2C3251">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>443DBA73-3CA9-3416-4182-A2A709BD31A0</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7A9412CE-310B-BE89-98D7-D2882D0F28F9">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>CA49CD7D-1A41-EE1B-4075-1A56B642B4FE</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="B1D74D12-1B6E-5503-9994-88ED97CE4F8F">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>9F85426D-E7D4-2310-9020-BC6788A6DD99</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C4B42F8-16B9-0D36-3070-9693DF1F7DBB" name="Cliente_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>F9155C89-546C-B5E5-7D68-F5D208EDBF09</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F682BE6D-98AD-E28D-BDAB-D0992F2C3251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="364803AC-F457-4B3D-C781-00B610BA1EB8" name="Cliente_nombre_UN">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>8B790AF9-30B5-D1A6-BEA9-C6D395F9A638</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A9412CE-310B-BE89-98D7-D2882D0F28F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

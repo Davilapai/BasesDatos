@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6DB7BB-9F99-4600-FEAE-E27B471EE062" name="OrdenPedido">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>FD193373-1AB5-0D3E-10E6-EF50FE97E9B1</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="D9046A99-5670-3B43-15ED-3019BA26DAC8">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>DEFC31C1-DE8A-E591-CEEE-A702DB61E0C8</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaPedido" id="68DCC24F-ACCE-7CFC-9732-C7C395EE718E">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>EEB427F4-55CF-4991-6918-85D7178F413A</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F44B15FF-7435-7CF7-EDA4-D40880750735" name="OrdenPedido_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>98541A6E-9F76-E227-3B57-7590E8176CEA</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9046A99-5670-3B43-15ED-3019BA26DAC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

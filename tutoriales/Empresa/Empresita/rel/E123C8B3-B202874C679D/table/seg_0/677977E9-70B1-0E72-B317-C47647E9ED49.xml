@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="677977E9-70B1-0E72-B317-C47647E9ED49" name="Contacto">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>4773DF75-12FA-0B7C-12B4-E5F58879EABF</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_Id" id="24AE4EC0-D496-DCA1-DEC7-B01CCC458525">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>94C4A62A-4DB7-77B6-C316-A9EB3DD7E66C</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8DE4242-2307-8EA9-D1A5-CC55EA295369" referredColumn="231BF73B-4573-5C91-C116-CB618611E0D0"/>
+</associations>
+</Column>
+<Column name="email" id="6987B6B5-33D9-D073-304B-813846661CED">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>E196BC98-2BA4-63F7-73EA-05CE9C87E4C7</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="89A3C451-BAC6-30DF-FEC1-F1665731BF3A">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>3EEA06EA-A12D-4D5C-BF13-8C63454AD592</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1C4F5AD-272E-008B-5BBD-90F6C465524A" name="Contacto_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>966E1FAA-3DF4-D65D-496D-1A030EB39206</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24AE4EC0-D496-DCA1-DEC7-B01CCC458525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD2AC9C6-9F5B-D84D-2850-D7600B1F73EF" name="Contacto_Persona_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:13:57 UTC</createdTime>
+<generatorID>9C0FAE40-D185-96E3-49F8-3A24CCB2B6F8</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24AE4EC0-D496-DCA1-DEC7-B01CCC458525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

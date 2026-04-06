@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18E02DFC-2DA8-2CB8-AAD9-8BF2982E4888" name="SalesPerson">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:40:56 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9AC3E4B6-7134-025C-EC55-10E1EC7BEE26</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Bonus" id="55E1D8AA-65C7-E1AD-F9C7-3CBC258E3AF6">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:41:16 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VentasSumada" id="21483BB8-E66D-A75D-8D0B-AB1B2EA978C3">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:41:31 UTC</createdTime>
+<ownerDesignName>Empresita</ownerDesignName>
+<engineerTo>
+<item key="E123C8B3-2485-08B3-CCAA-B202874C679D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

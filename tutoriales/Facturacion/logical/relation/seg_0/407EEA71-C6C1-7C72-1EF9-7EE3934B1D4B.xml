@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NoIdentificante" directorySegmentName="seg_0" id="407EEA71-C6C1-7C72-1EF9-7EE3934B1D4B">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 00:23:55 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<sourcePk>7359C0E7-06EF-BC4B-343E-AEC9E467E8A8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>vendido</nameOnSource>
+<nameOnTarget>referencia</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18AAE607-33E7-B890-2D8F-D482B42A1553</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89EEAAD9-6027-F980-4FE9-3831883C65E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

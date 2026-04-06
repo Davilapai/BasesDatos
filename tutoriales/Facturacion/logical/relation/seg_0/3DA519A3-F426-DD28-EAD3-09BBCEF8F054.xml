@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FacturaXCliente" directorySegmentName="seg_0" id="3DA519A3-F426-DD28-EAD3-09BBCEF8F054">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:32:13 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>cargada</nameOnSource>
+<nameOnTarget>recibe</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9BE31A22-E99C-D7DF-BDC9-95CD68456F87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F7BCA91-C7DF-917B-982F-CB2FB33AF33B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="FechaDeVencimiento" id="186044FA-C624-244C-9FA1-C1013D4EAA7B">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 01:41:47 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<engineerTo>
+<item key="A381A9D7-BDC9-8C9F-93F1-34869EAD181C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

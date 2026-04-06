@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39B50FBC-E2FD-AF29-03E2-9205CEB2260B" name="FacturaXCliente">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Factura_numero" id="862BEBA4-37C7-FA61-CFBA-F8E039423EC8">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC39572F-98A3-EBB2-EDBF-DE5D2EBBA821" referredColumn="4DCE82A5-4715-B480-3F1F-3B7894E411FF"/>
+</associations>
+</Column>
+<Column name="Factura_numeroPedido" id="3DF255BF-5C08-1C5F-B4A8-785CB54497FE">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC39572F-98A3-EBB2-EDBF-DE5D2EBBA821" referredColumn="B347395E-FB7C-033F-ADD6-AFE71ECF6173"/>
+</associations>
+</Column>
+<Column name="Cliente_identificacion" id="860C3C86-6549-DC2D-7166-3C5FCBF60A2E">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC17643C-1EC1-DF43-7EAB-E9FFBBA387AB" referredColumn="F682BE6D-98AD-E28D-BDAB-D0992F2C3251"/>
+</associations>
+</Column>
+<Column name="FechaDeVencimiento" id="D98D4643-155F-0374-9380-C52689572332">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>186044FA-C624-244C-9FA1-C1013D4EAA7B</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6282E4E-7A44-8C6A-1A3B-7847AC739C67" name="FacturaXCliente_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<ownerDesignName>Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="862BEBA4-37C7-FA61-CFBA-F8E039423EC8"/>
+<colUsage columnID="3DF255BF-5C08-1C5F-B4A8-785CB54497FE"/>
+<colUsage columnID="860C3C86-6549-DC2D-7166-3C5FCBF60A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E44557F2-3F4A-0BF4-0C5B-A572885F2141" name="FacturaXCliente_Factura_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>3DA519A3-F426-DD28-EAD3-09BBCEF8F054</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="862BEBA4-37C7-FA61-CFBA-F8E039423EC8"/>
+<colUsage columnID="3DF255BF-5C08-1C5F-B4A8-785CB54497FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57537B2D-08B9-D2C5-8B8A-C7ADE62D6C88" name="FacturaXCliente_Cliente_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 02:14:49 UTC</createdTime>
+<generatorID>3DA519A3-F426-DD28-EAD3-09BBCEF8F054</generatorID>
+<ownerDesignName>Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="860C3C86-6549-DC2D-7166-3C5FCBF60A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

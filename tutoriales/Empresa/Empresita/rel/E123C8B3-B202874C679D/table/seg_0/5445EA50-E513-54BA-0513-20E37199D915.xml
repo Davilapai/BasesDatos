@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5445EA50-E513-54BA-0513-20E37199D915" name="Empleado">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>9AC3E4B6-7134-025C-EC55-10E1EC7BEE26</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_Id" id="5F52BEAC-858D-E7FC-1116-84AF9FA3C91D">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>94C4A62A-4DB7-77B6-C316-A9EB3DD7E66C</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02A184DB-0AFD-9B77-EE94-6CFDBC62DD02" referredColumn="231BF73B-4573-5C91-C116-CB618611E0D0"/>
+</associations>
+</Column>
+<Column name="FechaContratacion" id="234001E0-F5B4-4323-5BFE-C9810A9516CD">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>6B99D348-5D0F-D989-E992-3AA6DFCF2A8F</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="7872EDA4-DC8B-DC44-1E03-7F75D96B5805">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>55774619-09FC-EA87-1170-228F618D9942</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28BFC6EC-95F5-B1BC-3082-A7CCA75A5F90" name="Empleado_PK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:11:37 UTC</createdTime>
+<generatorID>966E1FAA-3DF4-D65D-496D-1A030EB39206</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F52BEAC-858D-E7FC-1116-84AF9FA3C91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="579833E4-2500-1CA2-24E0-0E94B698DF96" name="Empleado_Persona_FK">
+<createdBy>Davilapai</createdBy>
+<createdTime>2026-03-17 03:13:57 UTC</createdTime>
+<generatorID>1B63D5B1-C79E-AED3-3BA0-86310265457E</generatorID>
+<ownerDesignName>Empresita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F52BEAC-858D-E7FC-1116-84AF9FA3C91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
